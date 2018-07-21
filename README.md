@@ -1,2 +1,2 @@
 # MvcMovie
-# Git deneme projesi
+Git deneme projesi
