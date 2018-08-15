@@ -16,9 +16,15 @@ namespace MvcMovie.Controllers
         }
 
         //GET: /HelloWorld/Welcome
-        public string Welcome(string name, int clock = 1)
+        public ActionResult Welcome(string name, int numTimes = 2)
         {
-            return HttpUtility.HtmlEncode("Hello" + name + ", time is " + clock);
+            //return HttpUtility.HtmlEncode("Hello" + name + ", time is " + clock);
+            // gelistirme ilk hali
+
+            ViewBag.Message = "Hello" + name;
+            ViewBag.NumTimes = numTimes;
+
+            return View();
         }
 	}
 }
