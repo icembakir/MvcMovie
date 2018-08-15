@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using MvcMovie.Models;
-
+//yorum
 namespace MvcMovie.Controllers
 {
     [Authorize]
